@@ -1,0 +1,117 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>김민영</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;200;500&family=Noto+Serif+KR:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        * {margin: 0; padding: 0; box-sizing: border-box;}
+        a {color: inherit;}
+        html,body {color: #000; background-color: #0062fb; color: #fff; font-family: 'Noto Sans KR', 'Noto Serif KR', serif, sans-serif;}
+        ul,li {list-style: none;}
+        main {padding: 4rem 0;}
+        section {padding: 0 7rem;}
+        .intro {display: flex; flex-wrap: wrap; flex-direction: row-reverse; justify-content: space-between; height: 100vh; }
+        .topic {display: flex; flex-direction: column; justify-content: space-between; max-width: 1920px; font-family: Noto Serif KR; font-weight: 500;}
+        .tit {font-size: 4.5rem; letter-spacing: -8px; word-break: keep-all;}
+        .tit b {display: block; font-weight: 600;}
+        .version {width: 4.5rem; border-top: 5px solid #fff; font-size: 50px; line-height: 1.5;}
+        .desc_area {align-self: end; word-break: keep-all;}
+        .desc_area .row {display: flex; line-height: 2.2; font-size: .9rem;}
+        .desc_area .stit {flex-shrink: 0; width: 5em; }
+        .desc_area .value {font-weight: 300;}
+        .list_area .list {display: flex; flex-wrap: wrap; margin-top: 7rem;}
+        .list_area .item {flex: 1; min-width: 200px;}
+        .list_area .item a {display: block; position: relative; overflow: hidden; height: 0; padding-bottom: 100%; line-height: 0;}
+        .list_area .item figure {position: absolute; }
+        .list_area .item figure * {width: 100%; height: 100%; object-fit: cover;}
+        .list_area .item figure .vdo {transform: translateY(-20%);}
+        .tenten {display: flex; position: absolute; width: 100%; height: 100%; padding: 20px; background-color: #fff;}
+        @media (max-width:920px){
+            section {padding: 0 3rem;}
+            .tit , .vision {font-size: 3.4rem;}
+            .intro {flex-direction: row;}
+            .version {visibility: hidden;}
+            .desc_area .row {flex-direction: column;}
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <section class="intro">
+            <div class="topic">
+                <span class="tit">포트폴리오
+                    <b>;김민영</b>
+                </span>
+                <span class="version">2023
+                </span>
+            </div>
+            <div class="desc_area">
+                <dl class="row">
+                    <dt class="stit">CAREER
+                    </dt>
+                    <dd class="value">2013- UI/UX Web Developer
+                        <br>
+                        얍모바일 얍오더; 사장님사이트; 롯데백화점스마트오더;
+                        <br>
+                        원진성형외과; 
+                        <br>
+                        텐바이텐 10X10;
+                        <br>
+                        휴먼파워 디자인레이스; 모디모; 한화더플라자호텔
+                        <br>
+                        2007-2012- UI/UX Web Designer
+                    </dd>
+                </dl>
+                <dl class="row">
+                    <dt class="stit">SKILL
+                    </dt>
+                    <dd class="value">html scss css php jquery JavaScript Bootstrap FIgma
+                    </dd>
+                </dl>
+            </div>
+        </section>
+        <section class="list_area">
+            <ul class="list">
+                <li class="item">
+                    <a href="https://yapstor.blob.core.windows.net/yaporderpub/ceo/index.html" target="_blank">
+                        <figure><img src="assets/img_ceo.jpg" alt="사장님주문앱">
+                        </figure>
+                    </a>
+                </li>
+                <li class="item">
+                    <a href="https://yapstor.blob.core.windows.net/yaporderpub/order_POC/html/orderagent/pub.html" target="_blank">
+                        <figure><img src="assets/img_yap.jpg" alt="얍오더">
+                        </figure>
+                    </a>
+                </li>
+                <li class="item">
+                    <a href="http://k-wonjin.co.kr/" target="_blank">
+                        <figure>
+                            <video class="vdo" preload="assets/img_wj.jpg" muted="" playsinline="" autoplay="true" poster="" class="" loop>
+                                <source src="assets/img_wj.mp4" type="video/mp4">
+                            </video>
+                        </figure>
+                    </a>
+                </li>
+                <li class="item">
+                    <a href="https://10x10.co.kr/"  target="_blank">
+                        <span class="tenten">
+                            <svg viewBox="0 0 91 16">
+                                <path fill="#000" fill-rule="evenodd" clip-rule="evenodd" d="M86.5392 9.57873C86.5392 9.96011 86.4854 10.2818 86.3802 10.54C86.2751 10.8072 86.1336 11.0199 85.9547 11.1899C85.7794 11.3546 85.5591 11.4818 85.2925 11.5674C85.0259 11.6543 84.7055 11.6984 84.3338 11.6984C84.0159 11.6984 83.5866 11.7166 83.0484 11.7555C82.5152 11.7931 82.1322 11.8126 81.9069 11.8126C80.6139 11.8126 79.6064 11.7581 78.8879 11.6478C77.7465 11.4454 77.2208 10.7994 77.2083 9.58781V6.55489C77.2083 5.77526 77.4085 5.20188 77.8028 4.80234C78.1933 4.40539 78.7628 4.19913 79.5275 4.19913H84.2211C85.8007 4.35609 86.5266 5.102 86.5392 6.5497V9.57873ZM90.9562 6.71445C90.9274 6.15015 90.8861 5.57029 90.8273 4.97097C90.7171 4.13556 90.5607 3.413 90.3529 2.79682C90.1639 2.31815 89.9036 1.89655 89.5656 1.53073C89.1326 1.08059 88.6319 0.77185 88.0674 0.604508C87.5167 0.441057 87.0774 0.330793 86.7419 0.269823C86.2438 0.176423 85.7469 0.127128 85.2538 0.127128C84.9484 0.127128 84.2312 0.097292 83.1147 0.0389168C82.6353 0.0142695 82.2248 0 81.8768 0C81.5351 0 80.9894 0.0220529 80.2397 0.0648614C79.4937 0.105075 78.9117 0.127128 78.4962 0.127128C77.5086 0.127128 76.6313 0.260743 75.869 0.529269C75.1981 0.77185 74.6387 1.10394 74.1893 1.52424L74.1918 1.52554C73.2068 2.45176 72.7562 4.71412 72.7487 8.34506C72.7487 9.29463 72.7887 10.1936 72.8613 11.0381C72.9865 12.4145 73.2869 13.4574 73.7813 14.1631C74.3483 14.9363 75.272 15.4448 76.5386 15.7055C77.1081 15.8171 77.9004 15.8923 78.9217 15.9351C79.9431 15.9779 81.2373 15.9987 82.7993 15.9987C83.1072 15.9922 83.4251 15.9831 83.7543 15.9754C84.0797 15.9663 84.4202 15.9611 84.7744 15.9611C85.0485 15.9611 85.3414 15.9416 85.6443 15.9027C85.9421 15.8651 86.2438 15.8288 86.5367 15.795C88.0724 15.5875 89.1426 15.1464 89.7396 14.4407C90.3767 13.6987 90.7584 12.5636 90.8999 11.042C90.9687 10.3545 91 9.49051 91 8.44625C91 7.85731 90.9862 7.28004 90.9562 6.71445ZM63.9535 0.290579L63.8921 0.197179L57.8442 4.37425L59.9645 7.8158L65.0411 4.03827V15.821H69.5007V0.17772H63.9535V0.290579ZM56.7353 0.242581H50.5259L45.8611 5.60662L41.2238 0.242581H34.9431L41.9986 7.97406L34.5551 15.821H40.9647L45.8611 10.274L50.7112 15.821H57.2084L49.7236 7.97276L56.7353 0.242581ZM28.6949 9.57743C28.6949 9.96011 28.6386 10.2818 28.536 10.5413C28.4283 10.8059 28.2894 11.0199 28.1104 11.1873C27.9327 11.3559 27.7149 11.4831 27.4458 11.5674C27.1767 11.653 26.8588 11.6997 26.4871 11.6997C26.1704 11.6997 25.7423 11.7179 25.2041 11.7555C24.6684 11.7944 24.2854 11.8126 24.0626 11.8126C22.7672 11.8126 21.7571 11.7581 21.0412 11.6465C19.9022 11.4454 19.3765 10.7981 19.364 9.58651V6.55359C19.3665 5.77655 19.5643 5.20188 19.956 4.80493C20.3465 4.40539 20.916 4.20042 21.6845 4.19913H26.3757C27.954 4.35739 28.6799 5.10329 28.6949 6.551V9.57743ZM32.9805 4.97097C32.8754 4.13556 32.7139 3.41171 32.5062 2.79682C32.3209 2.31815 32.0568 1.89784 31.7164 1.53073C31.2858 1.08189 30.7827 0.77185 30.2207 0.604508C29.67 0.442354 29.2306 0.330793 28.8952 0.269823C28.3971 0.175126 27.9027 0.128425 27.4095 0.128425C27.1016 0.128425 26.3869 0.097292 25.268 0.0389168C24.7886 0.0129723 24.3756 0 24.0289 0C23.6884 0 23.1439 0.0207556 22.393 0.0635641C21.647 0.106373 21.0625 0.128425 20.6494 0.128425C19.6594 0.128425 18.7845 0.260743 18.0248 0.529269C17.3551 0.77185 16.7919 1.10264 16.3451 1.52424C15.36 2.45046 14.9095 4.71153 14.9032 8.34506C14.9032 9.29334 14.9395 10.1923 15.0146 11.0394C15.1398 12.4145 15.4401 13.4561 15.937 14.1631C16.5015 14.9376 17.4252 15.4448 18.6919 15.7042C19.2614 15.8171 20.0537 15.8936 21.075 15.9351C22.0976 15.9779 23.3905 16 24.9551 16C25.2605 15.9922 25.5784 15.9831 25.9063 15.9754C26.233 15.965 26.5759 15.9611 26.9301 15.9611C27.2042 15.9611 27.4946 15.9416 27.8 15.904C28.0992 15.8664 28.397 15.8275 28.6899 15.795C30.2257 15.5888 31.2958 15.1451 31.8954 14.4394C32.5337 13.6987 32.9142 12.5623 33.0544 11.0394C33.122 10.3545 33.1545 9.48922 33.1545 8.44754C33.1545 7.85601 33.1395 7.28004 33.1094 6.71574C33.0832 6.15015 33.0369 5.57029 32.9805 4.97097ZM6.10422 0.290579L6.04539 0.197179L0 4.37555L2.11526 7.8132L7.19439 4.03827V15.821H11.654V0.180315H6.10422V0.290579Z" fill="white"></path>
+                            </svg>
+                        </span>
+                    </a>
+                </li>
+            </ul>
+        </section>
+    </main>
+</body>
+</html>
